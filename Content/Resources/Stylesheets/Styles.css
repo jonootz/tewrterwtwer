@@ -1,127 +1,52 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 /*<meta />*/
 
 body
 {
-	color: #404040;
-	font-family: Arial, Avenir, Myriad;
-	font-size: .9em;
-	line-height: 1.7em;
-}
-
-a:link
-{
-	color: #2D8DCC;
-	font-weight: bold;
-}
-
-a:visited
-{
-	color: #2D8DCC;
-}
-
-a:hover
-{
-	color: #BED230;
-}
-
-a:active
-{
-	color: #2D8DCC;
-}
-
-a.MCBreadcrumbsLink
-{
-	font-style: italic;
-	text-decoration: underline;
-}
-
-a.MCBreadcrumbsLink:hover
-{
-	color: #BED230;
-}
-
-div.TopicContent
-{
-	padding-left: 15px;
-	padding-right: 15px;
+	font-family: Arial;
 }
 
 h1
 {
-	font-size: 1.5em;
-	font-weight: normal;
-	margin-bottom: 8px;
-	padding-bottom: 10px;
-	margin-top: 30px;
+	font-weight: bold;
+	font-size: 24.0pt;
 }
 
 h2
 {
-	border-bottom: none;
-	border-top: none;
-	color: #404040;
-	font-family: Arial;
-	font-size: 1.2em;
 	font-weight: bold;
-	margin-bottom: 4px;
-	margin-top: 20px;
+	font-size: 18.0pt;
 }
 
 h3
 {
-	font-size: 1.1em;
-	margin-bottom: 4px;
-	margin-top: 16px;
+	font-weight: bold;
+	font-size: 14.0pt;
 }
 
 h4
 {
-	margin-bottom: 4px;
-	margin-top: 12px;
-}
-
-li
-{
-	margin-bottom: 6px;
-	margin-top: 6px;
-}
-
-MadCap|breadcrumbsProxy
-{
-	border-bottom: none;
-	font-size: .7em;
-	font-style: italic;
-	mc-breadcrumbs-prefix: 'You are here: ';
-}
-
-MadCap|conceptLink
-{
-	color: #404040;
-	font-size: 0.8em;
 	font-weight: bold;
-	mc-image: url('../Images/ListIcon.png');
-	mc-label: 'SEE ALSO';
-	padding-top: 8px;
-	text-decoration: none;
+	font-size: 12.0pt;
 }
 
-MadCap|conceptLink:hover
+h5
 {
-	color: #BED230;
 	font-weight: bold;
+	font-size: 10.0pt;
 }
 
-MadCap|xref
+h6
 {
-	color: #2D8DCC;
 	font-weight: bold;
-	mc-format: '{para}';
-	text-decoration: underline;
+	font-size: 8.0pt;
 }
 
-MadCap|xref:hover
+p
 {
-	color: #BED230;
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
 }
 
 ol,
@@ -129,26 +54,38 @@ ul
 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 10pt;
 }
 
-p
+img
 {
-	font-family: Arial;
-	font-size: 1em;
-	margin-bottom: 8px;
-	margin-top: 8px;
+	border: none;
 }
 
-p.toptable
+a.Popup
 {
-	margin-top: 0pt;
-	font-size: 9pt;
-	margin-bottom: 0pt;
+	
 }
 
-td
+MadCap|expandingHead
 {
-	margin: 8px;
-	vertical-align: top;
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
 }
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+	color: #006600;
+}
+
